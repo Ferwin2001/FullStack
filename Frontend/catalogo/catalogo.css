@@ -1,7 +1,7 @@
 
    
         header {
-            background-color: #043c4e;
+            background-color: #130c0c;
             padding: 20px;
             text-align: center;
             position: relative;
@@ -28,7 +28,7 @@
             height: 70px;
         }
 
-        .mainTable {
+        .display {
             width: 100%;
               margin-top: 30px;
               border-style: double;
