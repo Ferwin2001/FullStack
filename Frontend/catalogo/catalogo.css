@@ -1,5 +1,5 @@
 
-   
+
         header {
             background-color: #130c0c;
             padding: 20px;
@@ -33,10 +33,27 @@
               margin-top: 30px;
               border-style: double;
             border-color: #f0f5f7;
+            background-color: rgb(58, 35, 1);
+            
+
         }
 
+        .bi-cart4{
+            color: yellow;
+        }
+
+        thead{
+            background-color: rgb(167, 125, 49);
+            
+        }
+
+        tbody{
+            font-style: italic;
+        }
+       
+
         .comprar {
-            background-color: #043c4e;
+            background-color: #cf0d68;
             color: white;
             padding: 10px 20px;
             border: none;
