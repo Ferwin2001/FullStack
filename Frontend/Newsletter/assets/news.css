@@ -7,6 +7,25 @@
 
 .article{
     background-color: yellow;
-    margin: 10px;
-    padding: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.newsletter {
+    width: 800px;
+    height: 200px;
+    background: url(https://img.freepik.com/vector-gratis/fondo-estudio-noticias-realista_23-2149985612.jpg?semt=ais_hybrid&w=740);
+    border: 5px solid purple;
+    background-size: cover;
+    color: white;
+}
+
+#enviar-data
+{
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
