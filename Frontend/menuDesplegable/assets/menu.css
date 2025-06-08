@@ -19,16 +19,14 @@ nav ul li {
 nav ul li a {
         color: #fff;
         text-decoration: none;
-        transition: color 0.3s;
+       
     }
 
 nav ul li a:hover {
         color: #0dd94a;
 }    
 
-.material-symbol-outlined {
-        transition: transform 0.5s;
-}
+
 
 .submenu {
         display: none;
@@ -53,11 +51,8 @@ nav ul li a:hover {
 
 }
 
-.submenu a {
-        color: #fff;
-        text-decoration: none;
-}
+
 
 .submenu a:hover {
-        color: #0dd94a;
+        color: #000803;
 }
