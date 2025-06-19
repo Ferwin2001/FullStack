@@ -1,0 +1,63 @@
+
+* {
+  font-family: "Savate", sans-serif;
+ }
+
+ .container-grid {
+  display: grid;
+  grid-template-columns: 25% 50% 25%; 
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 30px;
+}
+
+header {
+  grid-column: 1 / span 3;
+  border-bottom: 2px solid gainsboro;  
+  text-align: center;
+}
+
+.left {
+  grid-column: 1;
+  padding: 30px;
+  border-right: 2px solid gainsboro;
+}
+
+a {
+  
+  color: black;
+  text-decoration: underline;
+}
+
+.right {
+  grid-column: 3;
+  padding: 30px;
+  border-left: 2px solid gainsboro;
+}
+
+.main {
+  grid-column: 2;
+    padding: 30px;
+}
+
+.main h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.main p {
+  margin-top: 30px;  
+  line-height: 30px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  height: 300px;
+}
+
+footer {
+  grid-column: 1 / span 3;
+  text-align: center;
+  padding: 30px;
+  border-top: 2px solid gainsboro;
+}
