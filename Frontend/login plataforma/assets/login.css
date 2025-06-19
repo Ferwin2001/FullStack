@@ -1,0 +1,55 @@
+* {
+  font-family: "Savate", sans-serif;
+}
+
+body {
+  background-color: rgb(20, 18, 18);
+  color: white;
+  font-size:  15px;
+  letter-spacing: 2px;
+}
+
+form {
+  margin-top: 30px;  
+}
+
+.login {
+  border-radius: 30px;
+  margin: auto;
+  height: 550px;
+  width: 400px;
+  padding: 70px;
+  background: linear-gradient(rgba(0,0,0,.3),rgba(243,17,224,.3)), url(https://www.shutterstock.com/image-vector/modern-mascot-flat-design-simple-600nw-2270918483.jpg) center;
+  background-size: cover;  
+  box-shadow: 0px 30px 60px white;
+}
+
+h2 {
+    border-bottom: 2px solid white;
+    padding-left: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.campo-email, .campo-password {
+  width: 90%;
+  border: none;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,.3);  
+  margin-top: 10px;
+  transition: all 1s;
+  color: white;
+  font-size: 15px;
+
+
+}
+
+.campo-email:focus, .campo-password:focus {
+    outline: 0;
+    border: 2px solid ;
+}
