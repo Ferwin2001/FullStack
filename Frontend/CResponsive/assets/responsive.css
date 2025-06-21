@@ -1,0 +1,98 @@
+body {
+    background-color: gray;
+
+}
+
+*{
+    
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.cupon {
+    
+    max-width: 10%;
+    height: auto;
+}
+
+.imgproducto {
+    width: 100%;
+    max-height: 55%;
+}
+
+.container-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.producto {
+    background-color: rgb(226, 191, 191);
+    border: none;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    max-width: 290px;
+    max-height: 450px;
+}
+
+.title-product {
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.title-precio {
+    color: rgb(8, 196, 8);
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.title-regular {
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.bi-star-fill, .bi-star-half {
+    color: rgb(235, 235, 130) !important;
+}
+
+.btn-comprar {
+    background-color: pink;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .producto {
+        width: 50%;
+        max-width: 175px;
+        padding: 3px;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 375px) {
+    .producto {
+        width: 50%;
+        max-width: 150px;
+        padding: 3px;
+        
+    }
+    
+}
