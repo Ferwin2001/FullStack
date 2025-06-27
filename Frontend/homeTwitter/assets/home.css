@@ -1,0 +1,38 @@
+.tempora-twittest {
+  height: 900px;
+}
+.btn-twitter {
+  background-color: rgb(29, 155, 240);
+  padding: 10px 60px ;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0 / 8%) 0px 8px 28px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-twitter:hover {
+  background-color: rgb(26, 145, 218);
+  color: white;
+}
+
+ul li a:hover {
+  background-color: rgba(192, 192, 192, 0.473);
+  border-radius: 30px;
+}
+
+ul li a {
+  border-radius: 30px;
+  
+}
+
+.bi-twitter:hover {
+  background-color:  rgba(153, 151, 151, 0.253);
+}
+
+.bi-twitter {
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;  
+}
